@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gourmet Cooking | Contacts</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href="http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.7.1.min.js" ></script>
+<script src="js/superfish.js"></script>
+<script src="js/forms.js"></script>
+<script>
+$(function () {
+    $('#contact-form').forms({
+        ownerEmail: '#'
+    })
+})
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css"> 
+<link href="http://fonts.googleapis.com/css?family=PT+Serif+Caption:400italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Serif+Caption:400" rel="stylesheet" type="text/css">
+<![endif]-->
+</head>
+<body>
+<script>
+function myFunction(x) {
+    x.style.background = "orange";
+    
+    function myFunction() {
+    var x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+}
+
+}
+</script>
+<header>
+<div class="line-top"></div>
+  <div class="main">
+    <div class="row-top">
+      <h1><a href="index.html"><img alt="" src="images/logo.png"></a></h1>
+      <nav>
+        <ul class="sf-menu">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Restaurants</a> </li>
+          <li><a href="recipes.html">Recipes</a>
+            <ul>
+              <li><a href="#">Vegan Cookings</a></li>
+              <li><a href="Grill cooking.html">Grill Cookings</a>
+              <li><a href="#">Dessert Cookings </a></li>
+            </ul>
+          </li>
+          <li><a href="chefs.html">Chefs</a> </li>
+          <li><a href="contacts.html">Contacts</a> </li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+  </div>
+</header>
+<section id="content">
+  <div class="border-horiz"></div>
+  <div class="main">
+    <h3>Contact Information</h3>
+    <div class="box-address">
+      <h4>Company Name Inc.</h4>
+      <dl class="address">
+        <dt>#2685 Sector 37C<br>
+          Chandigarh,India.</dt>
+        <dd> <span>Freephone:</span> +91 9501022685</dd>
+        <dd> <span>Telephone:</span> +91 172 2692685</dd>
+        <dd> <span>FAX:</span> +91 504 889 9898</dd>
+        <dd> E-mail: <a class="mail-1" href="#">manjot.liverpool@gmail.com</a> </dd>
+      </dl>
+    </div>
+    <div class="map box-img">
+     <!-- <iframe src="https://goo.gl/maps/RcXCjbVgLJq"> </iframe> -->
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6858.818025043109!2d76.74393977359033!3d30.735010598434428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc3a0588c81%3A0x1cdf05e17b598c49!2sSector+37+C%2C+Sector+37%2C+Chandigarh%2C+160036!5e0!3m2!1sen!2sin!4v1472929164536" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="box-contact">
+    <h3>Contact Form</h3>
+    <form id="contact-form" action="#">
+      <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
+      <fieldset>
+        <div class="coll-1">
+          <div>
+            <div class="form-txt">Your Name:</div>
+            <label class="name">
+              <input type="text"onfocus="myFunction(this)" onkeyup="myFunction()">
+              <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> </label>
+            <div class="clear"></div>
+          </div>
+          <div>
+            <div class="form-txt">Telephone:</div>
+            <label class="phone">
+              <input type="tel" onfocus="myFunction(this)" onkeyup="myFunction()">
+              <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span> </label>
+            <div class="clear"></div>
+          </div>
+          <div>
+            <div class="form-txt">Email:</div>
+            <label class="email">
+              <input type="email"onfocus="myFunction(this)" onkeyup="myFunction()">
+              <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span> </label>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="coll-2">
+          <div>
+            <div class="form-txt">Message:</div>
+            <label class="message">
+              <textarea onfocus="myFunction(this)" onkeyup="myFunction()"></textarea>
+              <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="btns"> <a class="btn" data-type="reset">Clear</a> <a class="btn" data-type="submit">send</a> </div>
+      </fieldset>
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="main">
+    <ul class="soc-list">
+      <li><a href="#"><img alt="" src="images/icon-1.png"></a></li>
+      <li><a href="#"><img alt="" src="images/icon-2.png"></a></li>
+      <li><a href="#"><img alt="" src="images/icon-3.png"></a></li>
+      <li><a href="#"><img alt="" src="images/icon-4.png"></a></li>
+    </ul>
+  <div class="policy">Design by: <a href=""><i>MANJOT GUJRAL</i></a> </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
